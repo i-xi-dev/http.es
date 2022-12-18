@@ -1,4 +1,7 @@
 namespace Http {
+  /**
+   * The header field name.
+   */
   export const Header = {
     CONTENT_ENCODING: "Content-Encoding",
     CONTENT_LANGUAGE: "Content-Language",
@@ -7,6 +10,9 @@ namespace Http {
     CONTENT_TYPE: "Content-Type",
   } as const;
 
+  /**
+   * The request method name.
+   */
   export const Method = {
     CONNECT: "CONNECT",
     DELETE: "DELETE",
