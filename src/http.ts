@@ -24,6 +24,10 @@ namespace Http {
     PUT: "PUT",
     TRACE: "TRACE",
   } as const;
+
+  // export async function get(request: Request): Promise<Response> {
+
+  // }
 }
 Object.freeze(Http);
 
