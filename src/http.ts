@@ -1,4 +1,4 @@
-namespace Http {
+export namespace Http {
   /**
    * The header field name.
    */
@@ -29,6 +29,3 @@ namespace Http {
 
   // }
 }
-Object.freeze(Http);
-
-export { Http };
